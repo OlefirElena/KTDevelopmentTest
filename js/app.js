@@ -251,10 +251,11 @@ new Swiper('.slider-experience__body', {
 
 // Highlighted Slider
 new Swiper('.slider-highlighted__body', {
-	effect: 'coverflow',
+	// effect: 'coverflow',
 	slidesPerView: 1,
 	autoHeight: false,
 	speed: 1000,
+    spaceBetween: 30,
 	loop: true,
     loopAdditionalSlides: 1,
     parallax: true,
@@ -349,12 +350,12 @@ breakpointCheckermn2();
 
 // Stories Slider
 new Swiper ('.slider-stories__body', {
-    effect: 'coverflow',
+    // effect: 'coverflow',
 	slidesPerView: 1,
 	autoHeight: false,
 	speed: 1000,
-	loop: true,
-    loopAdditionalSlides: 1,
+	// loop: true,
+    // loopAdditionalSlides: 1,
     parallax: true,
     grabCursor: true,
     pagination: {
