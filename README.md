@@ -1,5 +1,7 @@
 # KT Development Test
 
+Тестовое задание
+
 ## Технологии
 
 - HTML/CSS
