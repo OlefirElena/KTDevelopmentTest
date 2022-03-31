@@ -770,6 +770,10 @@ body.ie ._ibg img {
           flex: 1 1 auto;
 }
 
+.header__main:not(:last-child) {
+	margin-right:60px;
+}
+
 .header__logo {
   position: relative;
   z-index: 1;
@@ -792,6 +796,10 @@ body.ie ._ibg img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.header__actions:not(:last-child) {
+	margin-right:60px;
 }
 
 /* .header__actions > *:not(:first-child) {
