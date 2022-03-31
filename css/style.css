@@ -774,12 +774,9 @@ body.ie ._ibg img {
   position: relative;
   z-index: 1;
   display: block;
-/*   margin-right: 28px; */
+ margin-right: 28px; 
 }
 
-.header__logo:not(:last-child) {
-marging-right: 60px;
-}
 
 .header__logo img {
   max-width: 100%;
@@ -795,10 +792,6 @@ marging-right: 60px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-}
-
-.header__actions:not(:last-child) {
-marging-right: 60px;
 }
 
 /* .header__actions > *:not(:first-child) {
