@@ -774,7 +774,11 @@ body.ie ._ibg img {
   position: relative;
   z-index: 1;
   display: block;
-  margin-right: 28px;
+/*   margin-right: 28px; */
+}
+
+.header__logo:not(:last-child) {
+marging-right: 60px;
 }
 
 .header__logo img {
@@ -793,9 +797,13 @@ body.ie ._ibg img {
           justify-content: flex-end;
 }
 
-.header__actions > *:not(:first-child) {
-  margin-left: calc(15px + 13 * ((100vw - 320px) / 1120));
+.header__actions:not(:last-child) {
+marging-right: 60px;
 }
+
+/* .header__actions > *:not(:first-child) {
+  margin-left: calc(15px + 13 * ((100vw - 320px) / 1120));
+} */
 
 .header__login {
   position: relative;
