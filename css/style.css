@@ -758,6 +758,10 @@ body.ie ._ibg img {
   transition: min-height 0.5s ease 0s;
 }
 
+.header__body > *:not(:last-child) {
+  margin-right: 60px;
+} 
+
 .header__main {
   display: -webkit-box;
   display: -ms-flexbox;
