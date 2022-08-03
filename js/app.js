@@ -227,7 +227,7 @@ new Swiper('.slider-experience__body', {
     autoHeight: false,
     speed: 1000,
     parallax: true,
-    loop: true,
+    // loop: true,
     grabCursor: true,
     mousewheel: {
         releaseOnEdges: true,
